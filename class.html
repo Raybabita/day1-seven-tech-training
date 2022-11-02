@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class guvi_student {
+            constructor(mark1, mark2) //initialize values
+            {
+                this.mark1 = mark1;
+                this.mark2 = mark2;
+            }
+
+            print_marks()  //function to print marks
+            {
+                return " Marks for subject 1 :" + this.mark1 + "Marks for subject 2 :" + this.mark2;
+
+            }
+
+        }
+
+        student1 = new guvi_student(50, 55);
+        student2 = new guvi_student(40, 70);
+        console.log(student1.print_marks()); //call method
+        console.log(student2.print_marks()); //call method
+    </script>
+</body>
+
+</html>
